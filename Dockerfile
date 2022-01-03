@@ -5,7 +5,7 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/* \
     && mkdir YukkiMusicBot \
     && cd YukkiMusicBot \
-    && git clone https://github.com/Hunter-Opp/YukkiMusicBot
+    && git clone https://github.com/NotReallyShikar/YukkiMusicBot
 WORKDIR /YukkiMusicBot/YukkiMusicBot
 RUN pip3 install --no-cache-dir --upgrade --requirement requirements.txt
 
